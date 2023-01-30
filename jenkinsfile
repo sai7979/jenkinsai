@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('GitHub project pull') {
             steps {
-                git branch: 'main', url: ' https://github.com/sai7979/jenkinsai.git'
+                git branch: 'main', url:  'https://github.com/sai7979/jenkinsai.git'
             }
             
         }
